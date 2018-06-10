@@ -11,9 +11,10 @@ I have implemented a simple idea which is as follow:
 
 ## INSTALLATION: 
 
-1) Install Node.js
-2) In the terminal go to the Folder 'Vistar-Media-Puzzle'
-3) Write 'npm install'
-4) Write 'node puzzle'
-5) Once the server is up and running, open the HTML file (to browser) in the same folder
-6) Now the application is up and running
+1) Download the Polygon-puzzle-Vistar-Media.zip file. 
+2) Install Node.js
+3) In the terminal go to the Folder 'Vistar-Media-Puzzle'
+4) Write 'npm install'
+5) Write 'node puzzle'
+6) Once the server is up and running, open the HTML file (to browser) in the same folder
+7) Now the application is up and running
