@@ -1,0 +1,16 @@
+{
+  "name": "sheifali-vistar-media-coding-puzzle",
+  "version": "1.0.0",
+  "description": "Coding assignment by Vistar Media to Sheifali",
+  "main": "puzzle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "http": "0.0.0"
+  }
+}

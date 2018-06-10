@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>Vistar Media Assignment</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div style="width:1200px;">
+    <div style="float: left; width: 830px">&nbsp;
+            <b size="4">Vistar Media: </b>
+            <input type="text" id="long" placeholder="Enter the longitude">
+            <input type="text" id="lat" placeholder="Enter the latitude">&nbsp;
+            <Button id="button" onClick="fetchResponse();">Find the state</Button>
+
+            <h2><p id="demo"></p><h2>
+            <h4><p>Sample Longitude and Latitude you can copy paste to test the logic:</p></h4> 
+            <p style="width: 152%"><b>Please Note:</b> From my conclusion, I have derived that the Polygon fromed from the given states data does not the exact state shape so for that reason the edge cities like New York <i>(long: ‎-73.935242, Lat: 40.730610)</i>, San Fransico <i>(long: ‎-122.431297, Lat: 37.773972)</i> etc. wont give any results. In the following table I have included the cities that lies somewhere in the center or in the line of the polygon</p>
+    </div>
+</div>
+
+<table id="cities">
+  <tr>
+    <th>Location</th>
+    <th>Longitude</th>
+    <th>Latitude</th>
+  </tr>
+  <tr>
+    <td>Casper</td>
+    <td>-106.3252</td>
+    <td>42.8501</td>
+  </tr>
+  <tr>
+    <td>Atanta</td>
+    <td>-84.386330</td>
+    <td>33.753746</td>
+  </tr>
+  <tr>
+    <td>Orlando</td>
+    <td>-81.379234</td>
+    <td>28.538336</td>
+  </tr>
+  <tr>
+    <td>Ithaca</td>
+    <td>-76.5019</td>
+    <td>42.4440</td>
+  </tr>
+  <tr>
+    <td>Houston</td>
+    <td>-95.366302</td>
+    <td>29.761993</td>
+  </tr>
+  <tr>
+    <td>Columbia</td>
+    <td>-81.0348</td>
+    <td>34.0007</td>
+  </tr>
+  <tr>
+    <td>Nashville</td>
+    <td>-86.7816</td>
+    <td>36.1627</td>
+  </tr>
+  <tr>
+    <td>Little Rock</td>
+    <td>-92.2896</td>
+    <td>34.7465</td>
+  </tr>
+  <tr>
+    <td>Albuquerque</td>
+    <td>-106.6504</td>
+    <td>35.0844</td>
+  </tr>
+  <tr>
+    <td>Salt Lake City</td>
+    <td>-111.8910</td>
+    <td>40.7608</td>
+  </tr>
+  <tr>
+    <td>Great Falls</td>
+    <td>-111.3008</td>
+    <td>47.5053</td>
+  </tr>
+  <tr>
+    <td>Seattle</td>
+    <td>-122.3321</td>
+    <td>47.6062</td>
+  </tr>
+  <tr>
+    <td>Bangor</td>
+    <td>-68.7712</td>
+    <td>44.8016</td>
+  </tr>
+  <tr>
+    <td>Columbus</td>
+    <td>-82.9988</td>
+    <td>39.9612</td>
+  </tr>
+
+</table>
+
+</body>
+</html>
