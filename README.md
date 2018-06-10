@@ -16,5 +16,5 @@ I have implemented a simple idea which is as follow:
 3) In the terminal go to the Folder 'Vistar-Media-Puzzle'
 4) Write 'npm install'
 5) Write 'node puzzle'
-6) Once the server is up and running, open the HTML file (to browser) in the same folder
-7) Now the application is up and running
+6) Once the server is up and running, open the HTML file - index.html (to browser) from the same folder
+7) Now the application is up and running - you can interact with the server from front end file
